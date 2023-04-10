@@ -1,3 +1,25 @@
+# Reactive Chat
+Building out a firebase react chat application to eventually implement in some other projects. Tutorial is pretty clear, I would rec
+<br>
+Timonwa Akintokun's fCC demo followed: https://www.freecodecamp.org/news/building-a-real-time-chat-app-with-reactjs-and-firebase/
+
+# Notes
+* html img docs - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#referrerpolicy
+
+    referrerpolicy="no-referrer" allows image src's from anywhere
+
+## Covered
+    * useEffect, useState, useRef
+        i. useEffect - update the chatbox after new messages are added to the db
+    * Components
+        i. conditional styling
+        ii. meaningfully represent db data
+    * Quick firebase db setup with {google auth}
+    * async functions
+    * specalized html use cases ( e.g., referrer)
+    * auto-scrolling with useRef, passing that ref, and using scrollIntoView()
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
